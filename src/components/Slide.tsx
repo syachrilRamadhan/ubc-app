@@ -18,7 +18,7 @@ const Slide: React.FC<propsType> = ({ img, title, mainTitle, price }) => {
           Mulai dari {""}
           <b className="text-[20px] md:text-[24px] lg:text-[30px]">{price}</b>
         </h3>
-        <div className="bg-accent text-white text-[14px] md:text-[16px] p-2 px-4 rounded-lg inline-block cursor-poointer hover:bg-blackish cursor-pointer">Belanja Sekarang</div>
+        <div className="bg-accent text-white text-[14px] md:text-[16px] p-2 px-4 rounded-lg inline-block hover:bg-blackish transition-all duration-500 transform cursor-pointer">Belanja Sekarang</div>
       </div>
       <Image className="w-[100%] h-[100%] md:h-auto rounded-xl object-cover object-right md:object-left-bottom" src={img} alt="banner" width={2000} height={100} />
     </div>
